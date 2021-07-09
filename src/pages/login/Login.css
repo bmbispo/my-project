@@ -1,0 +1,63 @@
+.Login{
+    border: none;
+    background: rgba(15, 15, 15, 0.5);
+    color: #fdfdfd;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Login-Field{
+    color: #000;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    width: 600px;
+    transition: all .1s linear;
+}
+
+.Login-Field:focus{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.9);
+    outline: none;
+}
+
+.Login-Error{
+    color: #ff8080;
+    margin-left: 0.5rem;
+}
+
+.Login-Btn{
+    background: #00cc99;
+    color: #fdfdfd;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.Login-Btn:hover{
+    cursor: pointer;
+}
+
+.Login-Btn-Register{
+    background: #f18c07;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 21.4rem;
+}
+
+
+a {
+    color: #fdfdfd;
+    text-decoration: none;
+}
