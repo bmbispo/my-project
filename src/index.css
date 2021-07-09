@@ -1,11 +1,12 @@
 body {
+    width: 100vw; 
+    height: 90vh; 
     font-family: Arial, Helvetica, sans-serif;
-    background: #7159c1;
+    background: rgb(112, 87, 193);
     color: white; 
-    margin: auto;
-    width: 50%;   
-    align-items: center;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-  
+    align-items: center
 }
 

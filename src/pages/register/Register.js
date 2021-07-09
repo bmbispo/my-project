@@ -32,7 +32,8 @@ const Register = () => {
                     
                     <div className="Register-Group">
                         <Field
-                            name="firstName" 
+                            name="firstName"
+                            placeholder="Nome"
                             className="Register-Field"
                         />
                         <ErrorMessage 
@@ -45,10 +46,12 @@ const Register = () => {
                     <div className="Register-Group">
                         <Field
                             name="email" 
+                            placeholder="Email"
                             className="Register-Field"
                         />
                         <ErrorMessage 
                             component="span" 
+                           
                             name="email" 
                             className="Register-Error"
                         />
@@ -57,6 +60,7 @@ const Register = () => {
                     <div className="Register-Group">
                         <Field
                             name="password" 
+                            placeholder="Senha"
                             type="password"
                             className="Register-Field"
                         />

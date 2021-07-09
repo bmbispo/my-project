@@ -4,7 +4,7 @@ import { ErrorMessage, Formik, Form, Field } from 'formik' ;
 
 import * as yup from 'yup';
 
-import './Login.css';
+import '../login/Login.css';
 
 const Login = () => {
     const validations = yup.object().shape({
@@ -15,7 +15,10 @@ const Login = () => {
     <>
     
     <Formik 
-        initialValues={{}}  
+        initialValues={{
+            email:'',
+            password:''
+        }}  
         validationSchema={validations}
     >
         <div className="Login-Global">
@@ -25,6 +28,7 @@ const Login = () => {
                 <div className="Login-Group">
                     <Field
                         name="email" 
+                        placeholder="Email"
                         className="Login-Field"
                     />
                     <ErrorMessage 
@@ -37,6 +41,7 @@ const Login = () => {
                 <div className="Login-Group">
                     <Field
                         name="password" 
+                        placeholder="Senha"
                         type="password"
                         className="Login-Field"
                     />
