@@ -59,6 +59,10 @@
     margin-right: 1rem;
 }
 
+.Login-Btn-Register:hover{
+    cursor: pointer;
+}
+
 
 a {
     color: #fdfdfd;

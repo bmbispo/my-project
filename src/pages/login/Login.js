@@ -54,9 +54,9 @@ const Login = () => {
                 <button className="Login-Btn" type="submit" >
                      Login
                 </button>
-                <button  className="Login-Btn-Register">
-                      <a href="/register">Criar Registro</a>
-                </button>
+            
+                <a className="Login-Btn-Register" href="/register">Criar Registro</a>
+                
             </Form>
         </div>
     </Formik>

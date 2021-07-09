@@ -74,9 +74,7 @@ const Register = () => {
                          Register
                     </button>
 
-                    <button  className="Register-Btn-Login"  >
-                        <a href="/">voltar para Login</a>
-                    </button>
+                    <a className="Register-Btn-Login" href="/">voltar para Login</a>
                     
                 </Form>
             </div>
